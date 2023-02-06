@@ -2,15 +2,15 @@ package com.serenitydojo;
 
 public class Dog {
     private String name;
-    private String favoriteFood;
+    private String favoriteToy;
     private Integer age;
     public Boolean isFed;
     private static String DOG_NOISE = "Woof";
 
     //Parameterized Constructor
-    public Dog(String name, String favoriteFood, Integer age){
+    public Dog(String name, String favoriteToy, Integer age){
         this.name = name;
-        this.favoriteFood = favoriteFood;
+        this.favoriteToy = favoriteToy;
         this.age = age;
     }
 
@@ -18,8 +18,8 @@ public class Dog {
         return this.name;
     }
 
-    public String getFavoriteFood(){
-        return this.favoriteFood;
+    public String getFavoriteToy(){
+        return this.favoriteToy;
     }
 
     public Integer getAge(){

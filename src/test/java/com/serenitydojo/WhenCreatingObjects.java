@@ -12,7 +12,7 @@ public class WhenCreatingObjects {
 //        Ash: Idk why .getFavoriteToy is here. Don't think it was an ask in the previous exercise or this one.
 //        Going to assume the sample code meant to say .getfavoriteFood() instead and make that change accordingly
 //        Assert.assertEquals(fido.getFavoriteToy(), "Bone");
-        Assert.assertEquals(fido.getFavoriteFood(), "Bone");
+        Assert.assertEquals(fido.getFavoriteToy(), "Bone");
 
 //        Ash: Commenting sample code because compiler cannot decide which one of the assertEquals flavor to call:
 //        "java: reference to assertEquals is ambiguous
